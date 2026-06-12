@@ -12,7 +12,7 @@ This is the base template for all Antigravity (agy) projects.
 Just tell the agent:
 > "Bootstrap a new project" or "Use the new-project skill"
 
-The agent will load the `new-project` skill, ask you a few questions (name, goal, tech stack, and GitHub repo configuration), and then run the script `scripts/new-project.sh` to create the project under `~/dev/`.
+The agent will load the `new-project` skill, ask you a few questions (name, goal, tech stack, and GitHub repo configuration), and then run the script `scripts/new-project.sh` to create the project under `~/dev/gdrive/`.
 
 ## Session log
 

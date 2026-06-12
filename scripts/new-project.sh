@@ -9,7 +9,8 @@ STACK="$3"
 GITHUB="$4"
 
 TEMPLATE_DIR="$HOME/dev/gdrive/agy-template"
-TARGET_DIR="$HOME/dev/$NAME"
+TARGET_DIR="$HOME/dev/gdrive/$NAME"
+
 
 if [ -z "$NAME" ]; then
   echo "Usage: $0 <name> <goal> <stack> <github: public|private|skip>"
@@ -67,5 +68,5 @@ fi
 
 echo ""
 echo "Done! Your new project is ready:"
-echo "  cd ~/dev/$NAME"
+echo "  cd ~/dev/gdrive/$NAME"
 echo "  agy"
